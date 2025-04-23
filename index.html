@@ -1,21 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeremiah Pfaff - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    ul ul {
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+      list-style-type: circle;
+      padding-left: 1.5rem;
+    }
+
+    .project {
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .project img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-top: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
 <body>
-<h1>Jeremiah Pfaff</h1>
-<h2>Portfolio</h2>
-<h3>Projects</h3>
-<ul>
-    <li>Learning RPG</li>
-    <img scr="EndsMeetImage.PNG" width="300px"/>
-    <li>Ends Meet</li>
-    <img scr="LearningRPGImage.PNG" width="300px"/>
-    <li>Economy Simulator</li>
-    <img scr="WebsiteImage.PNG" width="300px"/>
-  </ul>
-<h3>Skills</h3>
+
+<header>
+  <h1>Jeremiah Pfaff</h1>
+  <h2>Portfolio</h2>
+</header>
+
+<main>
+  <h3>Projects</h3>
+
+  <div class="project">
+    <ul>
+      <li><strong>Learning RPG</strong></li>
+      <ul>
+        <li>RPG made to fit the criteria of a learning game</li>
+        <li>Game fully created and developed using Processing</li>
+      </ul>
+    </ul>
+    <img src="EndsMeetImage.PNG" alt="Learning RPG">
+  </div>
+
+  <div class="project">
+    <ul>
+      <li><strong>Ends Meet</strong></li>
+      <ul>
+        <li>Created in Unity using C# to meet BPA competition standards</li>
+        <li>A replayable RPG with survival & wave mechanics</li>
+        <li>Custom UI design specifically made for the Unity project</li>
+      </ul>
+    </ul>
+    <img src="LearningRPGImage.PNG" alt="Ends Meet Game">
+  </div>
+
+  <div class="project">
+    <ul>
+      <li><strong>Economy Simulator</strong> (repository is private)</li>
+      <ul>
+        <li>Website created with React</li>
+        <li>Stores data using Microsoft Azure DB</li>
+        <li>Most interface icons are fetched from MUI</li>
+      </ul>
+    </ul>
+    <img src="WebsiteImage.PNG" alt="Economy Simulator">
+  </div>
+
+  <h3>Skills</h3>
   <ul>
     <li>Programming</li>
   </ul>
-<h3>Awards & Accomplishments</h3>
-    <li>Deans list Fall 2022 and Spring 2023.</li>
-<h3>Certifications</h3>
-    <li>Graduated highschool 2022.</li>
+
+  <h3>Awards & Accomplishments</h3>
+  <ul>
+    <li>Dean's List Fall 2022 and Spring 2023.</li>
+  </ul>
+
+  <h3>Certifications</h3>
+  <ul>
+    <li>Graduated high school 2022.</li>
+  </ul>
+</main>
+
+<footer>
+  &copy; 2025 Jeremiah Pfaff. All rights reserved.
+</footer>
+
 </body>
+</html>
